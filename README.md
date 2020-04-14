@@ -10,11 +10,11 @@ sudo docker build -t my_image .
 ```
 4) Run container by command
 ```bash
-sudo docker run  run my_image -p 80:80 -p 443:443
+sudo docker run -d -p 80:80 -p 443:443 my_image:latest
 ```
 Dont't forget to change ports for you own settings, if it needs.
 ___________________
-Btw, you can create you own certificate by command from main directory of repo.(You should delete old certificates first.)
+Btw, you can create you own certificate by command from main directory of repo.(You should delete old certificates first and change password in server.xml)
 ```bash
 sudo openssl req -x509 -newkey rsa:4096 -keyout ./ssl/localhost-rsa-key.pem -out ./ssl/localhost-rsa-cert.pem -days 36500
 ```
