@@ -1,4 +1,4 @@
-1) Clone this repo in any directory on your machine and choose this directory as your working directory.
+1) Clone this repo in any directory on your machine and choose directory ./docker_tomcat as your working directory.
 ```bash
 sudo git clone https://github.com/mjco0085/docker_tomcat
 ```
