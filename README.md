@@ -1,4 +1,7 @@
-1) Download this repo in any directory on your machine and choose this directory as your working directory.
+1) Clone this repo in any directory on your machine and choose this directory as your working directory.
+```bash
+sudo git clone https://github.com/mjco0085/docker_tomcat
+```
 2) Check settings in files server.xml (ports on Connectors) and Dockerfile (ports for authbind) 
 it's 80 for HTTPS and 443 for HTTPS by default. You may change it, if you need, but dont forget to change it in both places.
 3) Run building docker image by command
